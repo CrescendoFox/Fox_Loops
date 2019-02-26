@@ -1,0 +1,30 @@
+//Kain Fox
+// C++ DMACC 161
+// Spring 2019
+// 2/25/2019
+// If Loops
+// This demonstrates how do-while loops function by counting to the number given by the user.
+// I attest this project is entirely my work. 
+// I did not copy from another person or source.
+
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+  main()
+{
+	int count, number;
+	count = 0;
+
+	cout << "Choose a number between 1-100" << endl;
+	cin >> number;
+
+	do
+	{
+		count++;
+		cout << count << endl;
+	} while (count != number);
+
+		system("pause");
+		return 0;
+}
