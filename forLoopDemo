@@ -24,13 +24,13 @@ int main()
 		cin >> number;
 	}
 
-	for (int count = 0; count <= number; count++)
+	for (int count = 1; count <= number; count++)
 	{
 		cout << count << endl;
 	}
 
+	cout << "This program has successfully counted to " << number << endl;
+
 	system("pause");
 	return 0;
 }
-
-
