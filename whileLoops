@@ -1,12 +1,12 @@
 //Kain Fox
-// C++ DMACC 161
-// Spring 2019
-// 2/25/2019
-// If Loops
-// demonstrates how if-else loops function by counting to the number given by the user.
-//if the number is invalid, an error message will appear.
-// I attest this project is entirely my work. 
-// I did not copy from another person or source.
+//C++ DMACC 161
+//Spring 2019
+//2-25-2019
+//While Loops
+//Demonstrates how while loops function by counting to the number given by the user.
+//If the number is invalid, an error message will appear.
+//I attest this project is entirely my work. 
+//I did not copy from another person or source.
 
 #include <iostream>;
 #include <iomanip>;
@@ -22,7 +22,7 @@ int main()
 
 	if (number < 0 || number > 100)
 	{
-		cout << "Please insert a number between 1-100";
+		cout << "Please insert a number between 1-100" << endl;
 		cin >> number;
 	}
 
@@ -31,9 +31,9 @@ int main()
 		count++;
 		cout << count << endl;
 	}
-	
+
 	cout << "This program has sucessfully counted to " << number << endl;
-	
+
 	system("pause");
 	return 0;
 }
