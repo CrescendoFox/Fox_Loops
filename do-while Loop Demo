@@ -19,12 +19,20 @@ int main()
 	cout << "Choose a number between 1-100" << endl;
 	cin >> number;
 
+	if (number < 0 || number > 100)
+	{
+		cout << "Please choose a number between 0 and 100 " << endl;
+		cin >> number;
+	}
+
 	do
 	{
 		count++;
 		cout << count << endl;
 	} while (count != number);
 
-		system("pause");
-		return 0;
+	cout << "This program has successfully counted to " << number << endl;
+
+	system("pause");
+	return 0;
 }
