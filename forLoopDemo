@@ -1,11 +1,11 @@
 //Kain Fox
-// C++ DMACC 161
-// Spring 2019
-// 2/25/2019
-// If Loops
-// This demonstrates how for loops function by counting to the number given by the user.
-// I attest this project is entirely my work. 
-// I did not copy from another person or source.
+//C++ DMACC 161
+//Spring 2019
+//2-25-2019
+//For Loops
+//Demonstrates how for loops function by counting to the number given by the user.
+//I attest this project is entirely my work. 
+//I did not copy from another person or source.
 
 #include <iostream>
 #include <iomanip>
